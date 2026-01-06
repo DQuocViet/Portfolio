@@ -105,7 +105,7 @@ export default function Projects() {
 
                 {/* Tech Stack */}
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.techStack.slice(0, 4).map((tech) => (
+                  {project.techStack.map((tech) => (
                     <span
                       key={tech}
                       className="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 text-xs rounded-md"
@@ -113,11 +113,6 @@ export default function Projects() {
                       {tech}
                     </span>
                   ))}
-                  {project.techStack.length > 4 && (
-                    <span className="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-500 text-xs rounded-md">
-                      +{project.techStack.length - 4}
-                    </span>
-                  )}
                 </div>
 
                 {/* Expandable Responsibilities */}

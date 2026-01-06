@@ -16,13 +16,13 @@ export const projects: Project[] = [
     title: "KantsuAI Project",
     description: "AI Demand Forecasting SaaS platform with multi-tenant architecture and event-driven demand adjustment pipeline",
     duration: "Sep 2025 – Present",
-    role: "Full-Stack Developer",
+    role: "Full-Stack Developer | Team Lead",
     responsibilities: [
-      "Built a demand forecasting engine using statsmodels and pmdarima, forecasting demand for 31K+ SKUs with ~70% accuracy",
-      "Designed a multi-tenant SaaS architecture with company-based access control and isolated data per tenant",
-      "Implemented an event-driven demand adjustment pipeline by crawling promotional events from Amazon and Rakuten",
-      "Developed RESTful APIs with Django REST Framework to serve forecasting results, product data, and event signals",
-      "Built an admin dashboard using React and TypeScript with interactive charts for analytics and historical trend analysis"
+      "Led the development team and built a demand forecasting engine using statsmodels and pmdarima, forecasting demand for 31K+ SKUs with ~70% accuracy",
+      "Designed and architected a multi-tenant SaaS platform with company-based access control and isolated data per tenant",
+      "Led the implementation of an event-driven demand adjustment pipeline by crawling promotional events from Amazon and Rakuten, combined with a manual approval workflow",
+      "Led backend development and developed RESTful APIs using Django REST Framework to serve forecasting results, product data, and event signals",
+      "Led backend–frontend collaboration and built an admin dashboard using React.js and TypeScript with interactive analytics and historical trend visualizations"
     ],
     techStack: ["Python", "Django", "Django REST Framework", "React", "TypeScript", "statsmodels", "pmdarima"],
     color: "from-purple-500 to-indigo-500"
@@ -32,14 +32,14 @@ export const projects: Project[] = [
     title: "Annie Project",
     description: "Internal task management platform with usage-based billing mechanism and partner referral system",
     duration: "May 2025 – Aug 2025",
-    role: "Full Stack Developer",
+    role: "Full Stack Developer | Technical Lead",
     responsibilities: [
-      "Developed a task management platform using Django to support task creation, assignment, and status tracking across internal teams",
-      "Implemented a usage-based billing mechanism calculated from user check-ins, enabling transparent internal cost tracking",
-      "Built an admin management interface for organizations, user permissions, and billing configurations",
-      "Designed a partner referral and commission tracking flow, automating invitation handling and commission calculation"
+      "Acted as technical lead, designing backend architecture and core APIs using FastAPI for task creation, assignment, and status tracking across internal teams",
+      "Led the implementation of a usage-based billing mechanism derived from user check-ins, enabling transparent internal cost tracking and scalable billing rules",
+      "Led backend development for group purchase, subscription, and affiliate workflows using Django and Django REST Framework, integrated with PAY.JP for one-time and recurring payments",
+      "Designed transactional order and payment processing and coordinated backend–frontend integration, supporting admin dashboards built with Vue.js"
     ],
-    techStack: ["Python", "Django", "Django REST Framework", "Vue.js", "MySQL"],
+    techStack: ["Python", "Django", "Django REST Framework", "FastAPI", "Vue.js", "PAY.JP", "MySQL"],
     color: "from-emerald-500 to-teal-500"
   },
   {
@@ -47,14 +47,14 @@ export const projects: Project[] = [
     title: "BIHIBI Project",
     description: "E-commerce platform for cosmetics sales with group purchases, subscription plans, and secure payment processing",
     duration: "Feb 2025 – May 2025",
-    role: "Full Stack Developer",
+    role: "Full Stack Developer | Team Lead",
     responsibilities: [
-      "Extended a Django-based e-commerce system to support group purchases, subscription plans, affiliate tracking, and marketplace integrations",
-      "Implemented secure payment processing with PAY.JP, handling checkout validation, coupon logic, and order workflows",
-      "Developed and maintained admin dashboards for order management, customer operations, and campaign configuration",
-      "Integrated Vue.js components into server-rendered views to enable dynamic pricing updates and interactive checkout experiences"
+      "Led backend development for group purchase, subscription, and affiliate workflows using Python (Django, Django REST Framework)",
+      "Designed and implemented transactional order and payment processing integrated with PAY.JP for one-time and recurring payments, ensuring data consistency across orders, payments, and subscription states",
+      "Coordinated backend–frontend integration and developed admin dashboards using Vue.js, supporting order, customer, and campaign management",
+      "Participated in system design decisions and reviewed implementation approaches to ensure reliability and scalability"
     ],
-    techStack: ["Python", "Django", "Vue.js", "PAY.JP", "MySQL"],
+    techStack: ["Python", "Django", "Django REST Framework", "Vue.js", "PAY.JP", "MySQL"],
     color: "from-pink-500 to-rose-500"
   },
   {
