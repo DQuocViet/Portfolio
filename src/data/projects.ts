@@ -18,11 +18,10 @@ export const projects: Project[] = [
     duration: "Sep 2025 – Present",
     role: "Full-Stack Developer | Team Lead",
     responsibilities: [
-      "Led the development team and built a demand forecasting engine using statsmodels and pmdarima, forecasting demand for 31K+ SKUs with ~70% accuracy",
-      "Designed and architected a multi-tenant SaaS platform with company-based access control and isolated data per tenant",
-      "Led the implementation of an event-driven demand adjustment pipeline by crawling promotional events from Amazon and Rakuten, combined with a manual approval workflow",
-      "Led backend development and developed RESTful APIs using Django REST Framework to serve forecasting results, product data, and event signals",
-      "Led backend–frontend collaboration and built an admin dashboard using React.js and TypeScript with interactive analytics and historical trend visualizations"
+      "Built and led the development of a demand forecasting engine using statsmodels and pmdarima for 31k+ SKUs, significantly improving forecast accuracy",
+      "Designed and owned a multi-tenant SaaS architecture with company-based access control and isolated data per tenant",
+      "Implemented an event-driven demand adjustment pipeline by crawling promotional events from Amazon and Rakuten, combined with a manual approval workflow",
+      "Developed RESTful APIs with Django REST Framework and built an admin dashboard using React.js and TypeScript for analytics and historical trend visualization"
     ],
     techStack: ["Python", "Django", "Django REST Framework", "React", "TypeScript", "statsmodels", "pmdarima"],
     color: "from-purple-500 to-indigo-500"
@@ -35,7 +34,7 @@ export const projects: Project[] = [
     role: "Full Stack Developer | Technical Lead",
     responsibilities: [
       "Acted as technical lead, designing backend architecture and core APIs using FastAPI for task creation, assignment, and status tracking across internal teams",
-      "Led the implementation of a usage-based billing mechanism derived from user check-ins, enabling transparent internal cost tracking and scalable billing rules",
+      "Implemented a usage-based billing mechanism derived from user check-ins, enabling transparent internal cost tracking and scalable billing rules",
       "Led backend development for group purchase, subscription, and affiliate workflows using Django and Django REST Framework, integrated with PAY.JP for one-time and recurring payments",
       "Designed transactional order and payment processing and coordinated backend–frontend integration, supporting admin dashboards built with Vue.js"
     ],
@@ -64,9 +63,9 @@ export const projects: Project[] = [
     duration: "Jan 2024 – Feb 2025",
     role: "Full Stack Developer",
     responsibilities: [
-      "Developed and maintained core healthcare workflows including user registration, participant profiles, clinic onboarding, and billing processes using Django",
-      "Built responsive frontend screens with Vue.js and Nuxt.js, migrating legacy pages to a modular component-based architecture",
-      "Improved system stability and usability by resolving integration issues and enhancing layout consistency across participant, clinic, and admin roles"
+      "Developed and maintained core healthcare workflows (registration, onboarding, billing) using Django and Django REST Framework",
+      "Built responsive frontend screens with Vue.js and Nuxt.js, improving system stability and usability across roles",
+      "Utilized GitHub Actions for CI/CD to automate testing and deployment workflows"
     ],
     techStack: ["Python", "Django", "Vue.js", "Nuxt.js", "MySQL"],
     color: "from-blue-500 to-cyan-500"
